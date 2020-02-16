@@ -1,0 +1,5 @@
+package com.limitsService.entity;
+
+public class LimitConf {
+
+}

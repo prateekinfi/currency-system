@@ -1,0 +1,17 @@
+package com.limitsService;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.limitsService.entity.LimitConf;
+
+@RestController
+public class LimitsConfigurationController {
+	
+	@GetMapping("/getlimits")
+	public LimitConf getLimitsFromConfig() {
+		return new LimitConf();
+		
+	}
+
+}
