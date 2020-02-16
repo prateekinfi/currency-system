@@ -1,0 +1,4 @@
+spring.application.name=limits-service
+
+limits-server.min=1
+limits-server.max=1
