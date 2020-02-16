@@ -1266,3 +1266,235 @@ java.lang.IllegalArgumentException: Index out of bounds
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:00:42.332
+!MESSAGE Preparing classpath changed notification spring-cloud-config-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:00:42.425
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:00:42.442
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:00:42.519
+!MESSAGE buffering callback sts4.classpath.ilXWfzyO spring-cloud-config-server false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:00:42.540
+!MESSAGE executing callback sts4.classpath.ilXWfzyO 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:00:42.564
+!MESSAGE executing callback sts4.classpath.ilXWfzyO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:00:42.922
+!MESSAGE Preparing classpath changed notification spring-cloud-config-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:00:42.938
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:00:42.960
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:00:42.982
+!MESSAGE buffering callback sts4.classpath.ilXWfzyO spring-cloud-config-server false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:00:43.007
+!MESSAGE executing callback sts4.classpath.ilXWfzyO 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:00:43.156
+!MESSAGE executing callback sts4.classpath.ilXWfzyO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:00:47.650
+!MESSAGE Preparing classpath changed notification spring-cloud-config-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:00:47.677
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:00:47.708
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:00:48.303
+!MESSAGE buffering callback sts4.classpath.ilXWfzyO spring-cloud-config-server false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:00:48.524
+!MESSAGE executing callback sts4.classpath.ilXWfzyO 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:00:48.627
+!MESSAGE executing callback sts4.classpath.ilXWfzyO SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-02-16 07:00:49.780
+!MESSAGE C:\Program Files\Git\mingw64\etc\.probe-95b28733-e7c3-4258-8543-22a15851aaeb
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Program Files\Git\mingw64\etc\.probe-95b28733-e7c3-4258-8543-22a15851aaeb
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.createFile(Files.java:632)
+	at org.eclipse.jgit.util.FS$FileStoreAttributeCache.<init>(FS.java:234)
+	at org.eclipse.jgit.util.FS$FileStoreAttributeCache.getFsTimestampResolution(FS.java:211)
+	at org.eclipse.jgit.util.FS.getFsTimerResolution(FS.java:321)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.<init>(FileSnapshot.java:186)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.save(FileSnapshot.java:122)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.load(FileBasedConfig.java:156)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.loadSystemConfig(FileRepository.java:245)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.<init>(FileRepository.java:203)
+	at org.eclipse.jgit.storage.file.FileRepositoryBuilder.build(FileRepositoryBuilder.java:88)
+	at org.eclipse.jgit.storage.file.FileRepositoryBuilder.create(FileRepositoryBuilder.java:108)
+	at org.eclipse.egit.core.RepositoryCache.lookupRepository(RepositoryCache.java:58)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:693)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:651)
+	at org.eclipse.egit.core.project.GitProjectData.setRepositoryMappings(GitProjectData.java:465)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.connectProject(ConnectProviderOperation.java:153)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:111)
+	at org.eclipse.egit.core.internal.job.JobUtil$1.run(JobUtil.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:01:38.341
+!MESSAGE Preparing classpath changed notification currency-conversion-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:01:38.387
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:01:38.401
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:01:38.416
+!MESSAGE buffering callback sts4.classpath.ilXWfzyO currency-conversion-service false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:01:38.430
+!MESSAGE executing callback sts4.classpath.ilXWfzyO 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:01:38.449
+!MESSAGE executing callback sts4.classpath.ilXWfzyO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:01:38.685
+!MESSAGE Preparing classpath changed notification currency-conversion-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:01:38.705
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:01:38.726
+!MESSAGE classpath=102 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:01:38.752
+!MESSAGE buffering callback sts4.classpath.ilXWfzyO currency-conversion-service false 102
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:01:38.774
+!MESSAGE executing callback sts4.classpath.ilXWfzyO 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:01:38.810
+!MESSAGE executing callback sts4.classpath.ilXWfzyO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:02:13.085
+!MESSAGE Preparing classpath changed notification spring-cloud-config-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:02:13.103
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:02:13.128
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:02:13.144
+!MESSAGE buffering callback sts4.classpath.ilXWfzyO spring-cloud-config-server false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:02:13.211
+!MESSAGE executing callback sts4.classpath.ilXWfzyO 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:02:13.240
+!MESSAGE executing callback sts4.classpath.ilXWfzyO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:09:37.524
+!MESSAGE Preparing classpath changed notification spring-cloud-config-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:09:37.557
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:09:37.583
+!MESSAGE classpath=111 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:09:37.610
+!MESSAGE buffering callback sts4.classpath.ilXWfzyO spring-cloud-config-server false 111
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:09:37.671
+!MESSAGE executing callback sts4.classpath.ilXWfzyO 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:09:37.702
+!MESSAGE executing callback sts4.classpath.ilXWfzyO SUCCESS [done]
+
+!ENTRY org.eclipse.text 4 2 2020-02-16 07:13:08.066
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4680)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:10206)
+	at org.eclipse.swt.custom.StyledText.setStyleRange(StyledText.java:10087)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler$InternalListener.textChanged(TMPresentationReconciler.java:298)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2686)
+	at org.eclipse.jface.text.TextViewer$VisibleDocumentListener.documentChanged(TextViewer.java:396)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:747)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:716)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:700)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:774)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1105)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(SynchronizableDocument.java:176)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1123)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(SynchronizableDocument.java:164)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(DefaultDocumentAdapter.java:236)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7426)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:8303)
+	at org.eclipse.swt.custom.StyledText.doBackspace(StyledText.java:2284)
+	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:7215)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:6071)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6098)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5787)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1056)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1080)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1065)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1107)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1490)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4877)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:353)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4759)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3545)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:635)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:14:01.353
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ilXWfzyO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:14:01.411
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ilXWfzyO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:14:01.427
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-16 07:14:01.448
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ilXWfzyO => OK
